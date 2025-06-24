@@ -71,9 +71,9 @@
         "rating": 5
       },
       {
-        "quote": "Placeholder testimonial 1. Share a brief, impactful quote from a happy client here.",
-        "name": "Client Name 1",
-        "source": "Client Survey",
+        "quote": "The Movment class hosted by Maja is my go to every possible Saturday morning. Fun, lite hearted and welcoming atmosphere and a tough yet for my - 50+ - body an imperative stretch and core strengthening practice that works wonders. I urge you all to give it a go!",
+        "name": "Martin",
+        "source": "Bonobo Gym",
         "rating": 5
       },
       {
@@ -101,15 +101,15 @@
         "rating": 5
       },
       {
-        "quote": "Placeholder testimonial 6. Share a brief, impactful quote from a happy client here.",
-        "name": "Client Name 6",
-        "source": "Client Survey",
+        "quote": "Totalt otränad började jag träna utomhus med Bonobo gym under pandemin och tre år senare har träningen blivit en otrolig viktig del av mitt liv och välmånde! Utöver den varierade och utmanande träningen under Marks fina ledning är vi ett härligt gäng som uppskattar att se varandra i gymmet. Kom och träna med oss!",
+        "name": "Maria",
+        "source": "Bonobo Gym",
         "rating": 5
       },
       {
-        "quote": "Placeholder testimonial 7. Share a brief, impactful quote from a happy client here.",
-        "name": "Client Name 7",
-        "source": "Client Survey",
+        "quote": "Som kille i slutet av 30-årsåldern med ett hektiskt schema behöver jag träning som är effektiv. MVMT-klassen levererar varje gång. Utmanande, varierande och aldrig tråkigt. Jag känner mig starkare och har mer energi nu än för fem år sedan. Suverän klass och en stark rekommendation!",
+        "name": "Raoul",
+        "source": "Bonobo Gym",
         "rating": 5
       },
       {
@@ -427,7 +427,7 @@
     "trail_offer": {
       "title": "Bonobo Trail",
       "description": "Try us out! 3 classes in 14 days for only 360 kr.",
-      "promo": "Convert to a full membership and get 10% off your first month!",
+      "promo": "Convert to a full membership and get 10% off your first month! ",
       "button": "Start Your Trail →"
     },
     "pricing_cards": {
@@ -451,7 +451,7 @@
           "4 weeks freeze per year"
         ],
         "button": "Go for Gold →",
-        "annual_note": "Or pay annually (12 089 kr) and get 1 month free!"
+        "annual_note": "Or pay annually (12 089 kr) and get 1 month for free!"
       },
       "gold_coach": {
         "title": "Gold+Coach",
@@ -462,7 +462,7 @@
           "Guaranteed access to classes"
         ],
         "button": "Upgrade to Gold+Coach",
-        "annual_note": "Or pay annually (19 789 kr) and get 1 month free!"
+        "annual_note": "Or pay annually (19 789 kr) and get 1 month for free!"
       }
     },
     "other_passes": {

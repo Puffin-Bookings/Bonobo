@@ -40,7 +40,7 @@
     "classes": [
       {
         "id": "strength_conditioning",
-        "title": "Styrka & Kondition",
+        "title": "Strenght & Conditioning",
         "description": "Vårt kärnerbjudande för att bygga funktionell styrka och uthållighet. Upplev utmanande träningspass anpassade efter din nivå, vilket säkerställer stadig framgång och verkliga resultat."
       },
       {
@@ -72,9 +72,9 @@
         "rating": 5
       },
       {
-        "quote": "Ett kort och talande citat från en nöjd kund. Dela det här.",
-        "name": "Kundnamn 1",
-        "source": "Kundundersökning",
+        "quote": "The Movment class hosted by Maja is my go to every possible Saturday morning. Fun, lite hearted and welcoming atmosphere and a tough yet for my - 50+ - body an imperative stretch and core strengthening practice that works wonders. I urge you all to give it a go!",
+        "name": "Martin",
+        "source": "Bonobo Gym",
         "rating": 5
       },
       {
@@ -102,15 +102,15 @@
         "rating": 5
       },
       {
-        "quote": "Ett kort och talande citat från en nöjd kund. Dela det här.",
-        "name": "Kundnamn 6",
-        "source": "Kundundersökning",
+        "quote": "Totalt otränad började jag träna utomhus med Bonobo gym under pandemin och tre år senare har träningen blivit en otrolig viktig del av mitt liv och välmånde! Utöver den varierade och utmanande träningen under Marks fina ledning är vi ett härligt gäng som uppskattar att se varandra i gymmet. Kom och träna med oss!",
+        "name": "Maria",
+        "source": "Bonobo Gym",
         "rating": 5
       },
       {
-        "quote": "Ett kort och talande citat från en nöjd kund. Dela det här.",
-        "name": "Kundnamn 7",
-        "source": "Kundundersökning",
+        "quote": "Som kille i slutet av 30-årsåldern med ett hektiskt schema behöver jag träning som är effektiv. MVMT-klassen levererar varje gång. Utmanande, varierande och aldrig tråkigt. Jag känner mig starkare och har mer energi nu än för fem år sedan. Suverän klass och en stark rekommendation!",
+        "name": "Raoul",
+        "source": "Bonobo Gym",
         "rating": 5
       },
       {
@@ -463,11 +463,11 @@
           "Garanterad plats på pass"
         ],
         "button": "Uppgradera till Guld+Coach",
-        "annual_note": "Eller betala årsvis (20 889 kr) och få 1 månad gratis!"
+        "annual_note": "Eller betala årsvis (19 789 kr) och få 1 månad gratis! "
       }
     },
     "other_passes": {
-      "title": "Andra Kort & Klippkort",
+      "title": "Övriga kort & klippkort",
       "passes": [
         {
           "title": "10-Klippkort",
