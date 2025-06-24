@@ -47,7 +47,7 @@ const Footer = () => {
             <address className="mt-4 not-italic text-gray-400 space-y-2">
               <p>Kvarnholmsvägen 77<br />131 31 Nacka<br />Stockholm, Sweden</p>
               <p>mark@bonobogym.com</p>
-              <p>+46 70 123 45 67</p>
+              <p>0736 426 292</p>
             </address>
           </div>
         </div>
