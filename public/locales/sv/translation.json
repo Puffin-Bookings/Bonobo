@@ -140,6 +140,19 @@
     "quote": "mark@bonobogym.com",
     "image_alt": "Mark Oogan, grundare av Bonobo Gym, ler."
   },
+  "maja_story": {
+    "title": "Möt Maja",
+    "image": "/path/to/maja-placeholder.jpg",
+    "story": [
+      "Rörelse och välbefinnande har varit centrala i mitt liv så länge jag kan minnas.",
+      "Jag tävlade i skidåkning och rytmisk gymnastik under hela min ungdom, och efter att ha slutat tävla i slutet av tonåren gick jag naturligt över till att undervisa. Jag tillbringade 10 år med att undervisa aerobics och stepaerobics innan jag upptäckte Pilates, som jag sedan undervisade i under ytterligare ett decennium.",
+      "Efter att ha flyttat till Sverige för sex år sedan upptäckte jag Soma Move, en praktik som omedelbart gick hem hos mig. Jag blev certifierad och började undervisa det tillsammans med andra metoder. Idag på Bonobo leder jag MVMT-klassen - en blandning av mina favorittekniker och discipliner, med en ledande princip: respektera och lyssna på våra kroppar.",
+      "Min approach fokuserar på att bygga styrka, förbättra rörlighet och förebygga skador. Vi arbetar med isometriska hållningar, muskelutmattning (med justeringar) och en helkroppssyn. Det är lika viktigt att veta när man ska trycka och när man ska sakta ner. Den medvetenheten - att lära sig att lyssna på sin kropp och röra sig med avsikt - är i hjärtat av allt jag undervisar.",
+      "Varje klass avslutas med en meditativ nedvarvning, vilket skapar utrymme att bära lugn och närvaro in i resten av dagen. Jag tycker verkligen om approachen som fokuserar på att hjälpa oss att leva ett passande, skadefritt liv, grundat i självmedvetenhet och vänlighet (och lite kul på vägen:)",
+      "Och jag älskar verkligen att vara en del av Bonobo-gemenskapen"
+    ],
+    "quote": "maja@bonobogym.com"
+  },
   "differentiators": {
     "pre_title": "Det som utmärker Bonobo",
     "title": "Mer än bara ett Gym",

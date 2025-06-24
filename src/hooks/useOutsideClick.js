@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 
-function useOutsideClick(ref, callback) {
+function useOutsideClick(refOrRefs, callback) {
   useEffect(() => {
     function handleClickOutside(event) {
-      if (ref.current && !ref.current.contains(event.target)) {
+      const refs = Array.isArray(refOrRefs) ? refOrRefs : [refOrRefs];
+      if (refs.every(ref => ref.current && !ref.current.contains(event.target))) {
         callback();
       }
     }
@@ -12,7 +13,7 @@ function useOutsideClick(ref, callback) {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [ref, callback]);
+    }, [refOrRefs, callback]);
 }
 
 export default useOutsideClick;

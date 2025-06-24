@@ -137,6 +137,19 @@
     "quote": "mark@bonobogym.com",
     "image_alt": "Mark Oogan, founder of Bonobo Gym, smiling."
   },
+  "maja_story": {
+    "title": "Meet Maja",
+    "image": "/path/to/maja-placeholder.jpg",
+    "story": [
+      "Movement and wellness have been central to my life for as long as I can remember.",
+      "I competed in skiing and rhythmic gymnastics throughout my youth, and after retiring from competition in my late teens, I naturally transitioned into teaching. I spent 10 years instructing aerobics and step aerobics before discovering Pilates, which I went on to teach for another decade.",
+      "After moving to Sweden six years ago, I discovered Soma Move, a practice that immediately resonated with me. I became certified and began teaching it alongside other modalities. Today at Bonobo, I lead the MVMT class—a blend of my favorite techniques and disciplines, rooted in one guiding principle: respecting and listening to our bodies.",
+      "My approach focuses on building strength, improving mobility, and preventing injury. We work with isometric holds, muscle fatigue (with adjustments), and a whole-body perspective. Equally important is knowing when to push and when to slow down. That awareness—learning to tune into your body and move with intention—is at the heart of everything I teach.",
+      "Each class ends with a meditative cool-down, creating space to carry calm and presence into the rest of the day. I really like the approach focused on helping us to live a fit, injury-free life, grounded in self-awareness, and kindness (and some fun along the way:)",
+      "And absolutely love being part of Bonobo community"
+    ],
+    "quote": "maja@bonobogym.com"
+  },
   "differentiators": {
     "pre_title": "The Bonobo Difference",
     "title": "More Than Just a Gym",
