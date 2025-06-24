@@ -190,6 +190,23 @@
 
     ]
   },
+  "announcements": [
+    {
+      "id": 1,
+      "message": "Funky Monkeys (3-5) starts on 24/8. See 'Classes' for more information.",
+      "endDate": "2025-10-31"
+    },
+    {
+      "id": 2,
+      "message": "Youth Class (10-14) starts 26/8. See 'Classes' for more information.",
+      "endDate": "2025-10-31"
+    },
+    {
+      "id": 3,
+      "message": "Plus Power (65+) starts on 26/7 and continues weekly as a regular class. See 'Classes' for more information.",
+      "endDate": "2026-12-31"
+    }
+  ],
   "footer": {
     "tagline": "Improvement by Movement",
     "quick_links": "Quick Links",
@@ -428,7 +445,8 @@
       "title": "Bonobo Trail",
       "description": "Try us out! 3 classes in 14 days for only 360 kr.",
       "promo": "Convert to a full membership and get 10% off your first month! ",
-      "button": "Start Your Trail →"
+      "button": "Claim Offer",
+      "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
     },
     "pricing_cards": {
       "silver": {
@@ -451,6 +469,7 @@
           "4 weeks freeze per year"
         ],
         "button": "Go for Gold →",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa",
         "annual_note": "Or pay annually (12 089 kr) and get 1 month for free!"
       },
       "gold_coach": {
@@ -462,6 +481,7 @@
           "Guaranteed access to classes"
         ],
         "button": "Upgrade to Gold+Coach",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa",
         "annual_note": "Or pay annually (19 789 kr) and get 1 month for free!"
       }
     },
@@ -471,33 +491,39 @@
         { 
           "title": "10-Pack Clip Card", 
           "price": "1 999 kr", 
-          "description": "Train when it suits you. The 10-pack clip card is valid for 6 months from the date of purchase. Perfect for those who want flexibility in their training schedule." 
+          "description": "Train when it suits you. The 10-pack clip card is valid for 6 months from the date of purchase. Perfect for those who want flexibility in their training schedule.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
         },
         { 
           "title": "Single Drop-in", 
           "price": "250 kr", 
-          "description": "Perfect for trying out a class or for visitors. Book your spot in any of our regular classes. Great for those who want to experience our classes without a long-term commitment." 
+          "description": "Perfect for trying out a class or for visitors. Book your spot in any of our regular classes. Great for those who want to experience our classes without a long-term commitment.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
         },
         { 
           "title": "Children & Youth Pass", 
           "price": "1 995 kr", 
           "description": "A 10-week pass for our Funky Monkeys or Youth classes, designed to build a foundation of fitness in a fun environment. Ideal for parents who want their kids to stay active and healthy.", 
-          "link_text": "Read more" 
+          "link_text": "Read more",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
         },
         { 
           "title": "Single PT Class", 
           "price": "850 kr", 
-          "description": "Get personalized attention and a workout tailored to your specific goals with a one-on-one session with our expert coaches. Suitable for those who want focused training and guidance." 
+          "description": "Get personalized attention and a workout tailored to your specific goals with a one-on-one session with our expert coaches. Suitable for those who want focused training and guidance.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
         },
         { 
-          "title": "Mama Bootcamp", 
-          "price": "2 999 kr", 
-          "description": "A 10-class program designed to help new mothers safely and effectively return to training after childbirth. Babies are welcome! Perfect for new moms who want to regain strength and confidence in a supportive environment." 
+          "title": "Strong Mama", 
+          "price": "2 990 kr", 
+          "description": "A 10-class program designed to help new mothers safely and effectively return to training after childbirth. Babies are welcome! Perfect for new moms who want to regain strength and confidence in a supportive environment.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
         },
         { 
           "title": "Bruce Member Add-on", 
           "price": "120 kr", 
-          "description": "For our friends using Bruce! This add-on is for when you have used up your regular quota and want to join another class. Convenient for those who want to attend extra classes without upgrading their membership." 
+          "description": "For our friends using Bruce! This add-on is for when you have used up your regular quota and want to join another class. Convenient for those who want to attend extra classes without upgrading their membership.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
         }
       ]
     },

@@ -1,13 +1,54 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { FaGlobe } from 'react-icons/fa';
+import { FaGlobe, FaBell } from 'react-icons/fa';
 import bonoboLogo from '../assets/images/bonobo logo.JPEG';
+import RedirectModal from './RedirectModal';
+import Announcements from './Announcements';
+import useOutsideClick from '../hooks/useOutsideClick';
 
 const Navbar = () => {
+  const announcementsRef = useRef(null);
+  const [hasAnimated, setHasAnimated] = useState(false);
   const { t, i18n } = useTranslation();
   const [isLangDropdownOpen, setLangDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false); // State for hamburger menu
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAnnouncementsOpen, setAnnouncementsOpen] = useState(false);
+  const [activeAnnouncementsCount, setActiveAnnouncementsCount] = useState(0);
+
+  useOutsideClick(announcementsRef, () => {
+    if (isAnnouncementsOpen) {
+      setAnnouncementsOpen(false);
+    }
+  });
+
+  const externalBookingUrl = 'https://bonobogym.gymsystem.se';
+
+  const handleOpenModal = () => setIsModalOpen(true);
+  const handleCloseModal = () => setIsModalOpen(false);
+  React.useEffect(() => {
+    const announcements = t('announcements', { returnObjects: true });
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const active = announcements.filter(announcement => {
+      const endDate = new Date(announcement.endDate);
+      return endDate >= today;
+    });
+    setActiveAnnouncementsCount(active.length);
+
+    if (active.length > 0 && !hasAnimated) {
+      const timer = setTimeout(() => setHasAnimated(true), 2000); // Stop animation after 2 seconds
+      return () => clearTimeout(timer);
+    }
+
+  }, [t, hasAnimated]);
+
+  const handleConfirmRedirect = () => {
+    window.open(externalBookingUrl, '_blank');
+    handleCloseModal();
+  };
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -48,8 +89,17 @@ const Navbar = () => {
                 </div>
               )}
             </div>
+                        <div className="relative" ref={announcementsRef}>
+              <button onClick={() => setAnnouncementsOpen(!isAnnouncementsOpen)} className="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">
+                <FaBell className={`h-5 w-5 ${activeAnnouncementsCount > 0 && !hasAnimated ? 'animate-shake' : ''}`} />
+                {activeAnnouncementsCount > 0 && (
+                  <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-red-500 ring-2 ring-white"></span>
+                )}
+              </button>
+              <Announcements isOpen={isAnnouncementsOpen} />
+            </div>
             <Link to="/login" className="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">{t('navbar.login')}</Link>
-            <Link to="/book" className="bg-gray-800 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">{t('navbar.book_class')}</Link>
+            <button onClick={handleOpenModal} className="bg-gray-800 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-700">{t('navbar.book_class')}</button>
           </div>
           {/* Hamburger Button */}
           <div className="md:hidden flex items-center">
@@ -93,13 +143,23 @@ const Navbar = () => {
                     </div>
                 )}
             </div>
+                        <div className="relative" ref={announcementsRef}>
+              <button onClick={() => setAnnouncementsOpen(!isAnnouncementsOpen)} className="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">
+                <FaBell className={`h-5 w-5 ${activeAnnouncementsCount > 0 && !hasAnimated ? 'animate-shake' : ''}`} />
+                {activeAnnouncementsCount > 0 && (
+                  <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-red-500 ring-2 ring-white"></span>
+                )}
+              </button>
+              <Announcements isOpen={isAnnouncementsOpen} />
+            </div>
             <Link to="/login" onClick={handleLinkClick} className="px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-800">{t('navbar.login')}</Link>
           </div>
           <div className="mt-3 px-2 space-y-1">
-            <Link to="/book" onClick={handleLinkClick} className="block w-full text-center bg-gray-800 text-white px-4 py-2 rounded-md text-base font-medium hover:bg-gray-700">{t('navbar.book_class')}</Link>
+            <button onClick={() => { handleOpenModal(); handleLinkClick(); }} className="block w-full text-center bg-gray-800 text-white px-4 py-2 rounded-md text-base font-medium hover:bg-gray-700">{t('navbar.book_class')}</button>
           </div>
         </div>
       </div>
+      <RedirectModal isOpen={isModalOpen} onClose={handleCloseModal} onConfirm={handleConfirmRedirect} />
     </nav>
   );
 };

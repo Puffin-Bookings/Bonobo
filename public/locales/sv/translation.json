@@ -41,7 +41,9 @@
       {
         "id": "strength_conditioning",
         "title": "Strenght & Conditioning",
-        "description": "Vårt kärnerbjudande för att bygga funktionell styrka och uthållighet. Upplev utmanande träningspass anpassade efter din nivå, vilket säkerställer stadig framgång och verkliga resultat."
+        "description": "Vårt kärnerbjudande för att bygga funktionell styrka och uthållighet. Upplev utmanande träningspass anpassade efter din nivå, vilket säkerställer stadig framgång och verkliga resultat.",
+        "button": "Ta del av erbjudandet",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
       },
       {
         "id": "movement",
@@ -191,6 +193,23 @@
 
     ]
   },
+  "announcements": [
+    {
+      "id": 1,
+      "message": "Funky Monkeys (3-5) startar 24/8. Se 'Pass' för mer information.",
+      "endDate": "2025-10-31"
+    },
+    {
+      "id": 2,
+      "message": "Ungdomspass (10-14) startar 26/8. Se 'Pass' för mer information.",
+      "endDate": "2025-10-31"
+    },
+    {
+      "id": 3,
+      "message": "Plus Power (65+) startar 26/7 och fortsätter varje vecka som ett vanligt pass. Se 'Pass' för mer information.",
+      "endDate": "2026-12-31"
+    }
+  ],
   "footer": {
     "tagline": "Improvement by Movement",
     "quick_links": "Snabblänkar",
@@ -440,7 +459,8 @@
           "2 veckors frysning per år",
           "Tillgång till alla pass"
         ],
-        "button": "Välj Silver →"
+        "button": "Välj Silver →",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
       },
       "gold": {
         "tag": "Mest Populära",
@@ -452,6 +472,7 @@
           "4 veckors frysning per år"
         ],
         "button": "Välj Guld →",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa",
         "annual_note": "Eller betala årsvis (12 089 kr) och få 1 månad gratis!"
       },
       "gold_coach": {
@@ -463,6 +484,7 @@
           "Garanterad plats på pass"
         ],
         "button": "Uppgradera till Guld+Coach",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa",
         "annual_note": "Eller betala årsvis (19 789 kr) och få 1 månad gratis! "
       }
     },
@@ -472,33 +494,39 @@
         {
           "title": "10-Klippkort",
           "price": "1 999 kr",
-          "description": "Träna när det passar dig. 10-klippkortet är giltigt i 6 månader från inköpsdatum. Perfekt för dig som vill ha flexibilitet i ditt träningsschema."
+          "description": "Träna när det passar dig. 10-klippkortet är giltigt i 6 månader från inköpsdatum. Perfekt för dig som vill ha flexibilitet i ditt träningsschema.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
         },
         {
           "title": "Drop-in",
           "price": "250 kr",
-          "description": "Perfekt för att prova ett pass eller för besökare. Boka din plats på något av våra ordinarie pass. Utmärkt för dig som vill uppleva våra pass utan ett långsiktigt åtagande."
+          "description": "Perfekt för att prova på ett pass eller för besökare. Boka din plats på något av våra ordinarie pass. Utmärkt för dig som vill uppleva våra pass utan ett långsiktigt åtagande.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
         },
         {
           "title": "Barn- & ungdomskort",
           "price": "1 995 kr",
           "description": "Ett 10-veckorskort för våra Funky Monkeys- eller Ungdomspass, utformat för att bygga en grund för träning i en rolig miljö. Idealiskt för föräldrar som vill att deras barn ska vara aktiva och hälsosamma.",
-          "link_text": "Läs mer"
+          "link_text": "Läs mer",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
         },
         {
           "title": "Enstaka PT-pass",
           "price": "850 kr",
-          "description": "Få personlig uppmärksamhet och ett träningspass skräddarsytt efter dina specifika mål med en en-till-en-session med våra expertcoacher. Lämpligt för dig som vill ha fokuserad träning och vägledning."
+          "description": "Få personlig uppmärksamhet och ett träningspass skräddarsytt efter dina specifika mål med en en-till-en-session med våra expertcoacher. Lämpligt för dig som vill ha fokuserad träning och vägledning.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
         },
         {
-          "title": "Mamma Bootcamp",
-          "price": "2 999 kr",
-          "description": "Ett 10-passprogram utformat för att hjälpa nyblivna mammor att säkert och effektivt återgå till träning efter förlossningen. Bebisar är välkomna! Perfekt för nyblivna mammor som vill återfå styrka och självförtroende i en stödjande miljö."
+          "title": "Strong Mama",
+          "price": "2 990 kr",
+          "description": "Ett 10-passprogram utformat för att hjälpa nyblivna mammor att säkert och effektivt återgå till träning efter förlossningen. Bebisar är välkomna! Perfekt för nyblivna mammor som vill återfå styrka och självförtroende i en stödjande miljö.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
         },
         {
           "title": "Bruce Medlem Add-on",
           "price": "120 kr",
-          "description": "För våra vänner som använder Bruce! Detta tillägg är för när du har använt upp din vanliga kvot och vill delta i ytterligare ett pass. Bekvämt för dig som vill gå på extra pass utan att uppgradera ditt medlemskap."
+          "description": "För våra vänner som använder Bruce! Detta tillägg är till för när du har använt upp din vanliga kvot och vill vara med på ett till pass. Smidigt för dig som vill gå på extra pass utan att uppgradera ditt medlemskap.",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
         }
       ]
     },

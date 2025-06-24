@@ -32,15 +32,19 @@ const PassItem = ({ title, price, description, children, onBuyClick }) => {
 };
 
 const Membership = () => {
+  const [redirectUrl, setRedirectUrl] = useState('');
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const externalBookingUrl = 'https://bonobogym.gymsystem.se/shoppa';
+  
 
-  const handleOpenModal = () => setIsModalOpen(true);
+    const handleOpenModal = (url) => {
+    setRedirectUrl(url || 'https://bonobogym.gymsystem.se/shoppa');
+    setIsModalOpen(true);
+  };
   const handleCloseModal = () => setIsModalOpen(false);
-  const handleConfirmRedirect = () => {
-    window.open(externalBookingUrl, '_blank');
+    const handleConfirmRedirect = () => {
+    window.open(redirectUrl, '_blank');
     handleCloseModal();
   };
 
@@ -67,7 +71,7 @@ const Membership = () => {
           <h3 className="text-2xl font-bold">{trail_offer.title}</h3>
           <p className="mt-2">{trail_offer.description}</p>
           <p className="text-sm mt-2">{trail_offer.promo}</p>
-          <button onClick={handleOpenModal} className="mt-4 bg-white text-gray-900 py-2 px-6 rounded-lg font-semibold hover:bg-gray-200">{trail_offer.button}</button>
+          <button onClick={() => handleOpenModal(trail_offer.purchaseUrl)} className="mt-4 bg-white text-gray-900 py-2 px-6 rounded-lg font-semibold hover:bg-gray-200">{trail_offer.button}</button>
         </div>
 
         {/* Pricing Cards */}
@@ -82,7 +86,7 @@ const Membership = () => {
               ))}
             </ul>
             <div className="mt-auto">
-              <button onClick={handleOpenModal} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-900">{silver.button}</button>
+              <button onClick={() => handleOpenModal(silver.purchaseUrl)} className="mt-6 w-full bg-gray-800 text-white py-2 rounded-md hover:bg-gray-700 transition-colors">{silver.button}</button>
               <p className="mt-6 text-center text-sm text-gray-500">&nbsp;<br/>&nbsp;</p>
             </div>
           </div>
@@ -98,7 +102,7 @@ const Membership = () => {
               ))}
             </ul>
             <div className="mt-auto">
-              <button onClick={handleOpenModal} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-900">{gold.button}</button>
+              <button onClick={() => handleOpenModal(gold.purchaseUrl)} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-900">{gold.button}</button>
               <p className="mt-6 text-center text-sm text-gray-500">{gold.annual_note}</p>
             </div>
           </div>
@@ -113,7 +117,7 @@ const Membership = () => {
               ))}
             </ul>
             <div className="mt-auto">
-              <button onClick={handleOpenModal} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-700">{gold_coach.button}</button>
+              <button onClick={() => handleOpenModal(gold_coach.purchaseUrl)} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-700">{gold_coach.button}</button>
               <p className="mt-6 text-center text-sm text-gray-500">{gold_coach.annual_note}</p>
             </div>
           </div>
@@ -127,7 +131,7 @@ const Membership = () => {
             <div className="mt-8 max-w-4xl mx-auto">
                 <div className="space-y-4">
                     {other_passes.passes.map((pass, index) => (
-                        <PassItem key={index} title={pass.title} price={pass.price} description={pass.description} onBuyClick={handleOpenModal}>
+                        <PassItem key={index} title={pass.title} price={pass.price} description={pass.description} onBuyClick={() => handleOpenModal(pass.purchaseUrl)}>
                             {pass.link_text && <Link to="/classes#youth-classes" className="text-gray-800 hover:underline mt-2 inline-block">{pass.link_text}</Link>}
                         </PassItem>
                     ))}
