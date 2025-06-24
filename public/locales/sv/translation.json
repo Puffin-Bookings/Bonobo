@@ -1,0 +1,534 @@
+{
+  "navbar": {
+    "home": "Hem",
+    "classes": "Pass",
+    "memberships": "Medlemskap",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "login": "Logga in",
+    "book_class": "Boka ett pass"
+  },
+  "hero": {
+    "title": "Improvement by Movement",
+    "subtitle": "hos Bonobo Gym",
+    "button_trial": "Boka Prova på",
+    "button_membership": "Se Medlemskap"
+  },
+  "value_prop": {
+    "title": "Träning: enkelt, personligt och roligt",
+    "subtitle": "På Bonobo Gym anser vi att träning ska vara en källa till styrka, glädje och gemenskap. Vår unika approach fokuserar på rörelse, personlig uppmärksamhet och att göra varje pass till en givande upplevelse – både för individen och gruppen.",
+    "button_philosophy": "Läs mer →",
+    "values": [
+      {
+        "title": "Träna kroppen som en enhet",
+        "description": "Vår filosofi är enkel: träna kroppen, engagera sinnet. Vi kombinerar styrka, koordination och rörlighet i enhetliga träningspass som bygger en funktionellt stark kropp. Denna metod förbättrar fysisk motståndskraft samtidigt som den skärper mentalt fokus, vilket skapar styrka inifrån och ut."
+      },
+      {
+        "title": "Små grupper, enormt stöd",
+        "description": "Våra små gruppklasser innebär personlig coachning och en stark känsla av tillhörighet. Våra tränare känner dig, dina mål och dina gränser, och pushar dig effektivt och säkert."
+      },
+      {
+        "title": "Hitta glädjen i varje pass",
+        "description": "Vi blandar in glädje och lekfullhet i utmanande träningspass. Från engagerande uppvärmningar till varierade övningar håller vi det fräscht och stimulerande, vilket bevisar att hårt arbete också kan vara otroligt roligt."
+      }
+    ]
+  },
+  "featured_classes": {
+    "title": "Våra pass",
+    "subtitle": "Oavsett om du vill bygga grundläggande styrka, förbättra din rörlighet eller hitta specialiserat stöd har Bonobo Gym ett pass som är utformat för dig.",
+    "learn_more": "Läs mer →",
+    "classes": [
+      {
+        "id": "strength_conditioning",
+        "title": "Styrka & Kondition",
+        "description": "Vårt kärnerbjudande för att bygga funktionell styrka och uthållighet. Upplev utmanande träningspass anpassade efter din nivå, vilket säkerställer stadig framgång och verkliga resultat."
+      },
+      {
+        "id": "movement",
+        "title": "Movement (MVMT)",
+        "description": "Lås upp din kropps fulla potential. Våra unika movement-pass blandar element från olika discipliner för att förbättra din flexibilitet, balans och övergripande kroppsmedvetenhet."
+      },
+      {
+        "id": "funky_monkeys",
+        "title": "Funky Monkeys (3-5 år)",
+        "description": "Från våra 'Funky Monkeys' (3-5 år) och 'Ungdomspass (10-14 år)' till vår 'Senior-Styrka' (65+), erbjuder vi säker, effektiv och rolig träning för varje skede i livet."
+      }
+    ]
+  },
+  "community_testimonials": {
+    "title": "Beprövad expertis - ",
+    "subtitle": "detta är vad våra medlemmar har att säga.",
+    "testimonials": [
+      {
+        "quote": "Efter en veckas träningsuppehåll känns det jättekul att vara tillbaka till de grymma träningspassen och alla Bonobo-kompisar.",
+        "name": "Carin",
+        "source": "Bruce",
+        "rating": 5
+      },
+      {
+        "quote": "Efter ett långt träninguppehåll är jag nu på bara 3 månader starkare och i bättre form än någonsin, allt tack vare Mark och Bonobo community. En perfekt kombo av PT och gruppträning med ett otroligt resultat och så mycket pepp och glädje. Kan inte bli bättre !",
+        "name": "Anna",
+        "source": "Google",
+        "rating": 5
+      },
+      {
+        "quote": "Ett kort och talande citat från en nöjd kund. Dela det här.",
+        "name": "Kundnamn 1",
+        "source": "Kundundersökning",
+        "rating": 5
+      },
+      {
+        "quote": "Maja och Mark som tränare är fantastiskt! Så glad att jag hittat denna pärla och tillbaka till träningsglädjen. Riktigt bra, utmanande och roliga pass med en engagerad, genuin och peppande tränare! Rekommenderas starkt!",
+        "name": "Hanna",
+        "source": "Bruce",
+        "rating": 5
+      },
+      {
+        "quote": "Fantastiskt gym, otroligt mammaträningsprogram och tränare, och den absolut bästa utsikten över vattnet!",
+        "name": "C Ortiz",
+        "source": "Google",
+        "rating": 5
+      },
+      {
+        "quote": "Från en som inte gillade att träna i grupp och är inne på sitt 9:e år på Bonobo säger en hel del. Mark har en förmåga att skapa variation på träningen som passar alla. Grymt peppande gäng som tränar och alla behöver en Mark.",
+        "name": "Danne",
+        "source": "Google",
+        "rating": 5
+      },
+      {
+        "quote": "Mark är en alltid svettigt, roligt och härlig stämning med kompisarna på Bonobo!",
+        "name": "Gabriella",
+        "source": "Bruce",
+        "rating": 5
+      },
+      {
+        "quote": "Ett kort och talande citat från en nöjd kund. Dela det här.",
+        "name": "Kundnamn 6",
+        "source": "Kundundersökning",
+        "rating": 5
+      },
+      {
+        "quote": "Ett kort och talande citat från en nöjd kund. Dela det här.",
+        "name": "Kundnamn 7",
+        "source": "Kundundersökning",
+        "rating": 5
+      },
+      {
+        "quote": "Inkluderande och familjär stämning - jättebra pass med stor variation och rörelseglädje! Små träningsgrupper och engagerande tränare som ser en.",
+        "name": "Jenny",
+        "source": "Google",
+        "rating": 5
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ta första steget",
+    "subtitle": "mot ett starkare och gladare du.",
+    "button_join": "Bli medlem idag",
+    "button_trial": "Boka prova på"
+  },
+  "about_hero": {
+    "title": "Bonobo Gym",
+    "subtitle": "Improvement by Movement"
+  },
+  "mark_story": {
+    "title": "Möt Mark",
+    "paragraph1": "Hej! Jag heter Mark Oogan, en 56-årig irländare som har kallat Sverige mitt hem de senaste 20 åren. Min träningsresa började tidigt, som semiprofessionell cyklist på Irland under fem år i tonåren. Därefter fördjupade jag mig i kampsport – brasiliansk jiu-jitsu, karate och boxning – vilket närde en livslång passion för idrott. Min vision för Bonobo Gym kristalliserades efter att ha tränat med Jon Hinds på Monkey Bar Gym i Darwin, Australien, där jag blev certifierad Natural Trainer. Denna erfarenhet formade min grundläggande övertygelse: träna kroppen som en enda, integrerad enhet, med fokus på naturlig styrka, koordination och rörlighet.",
+    "paragraph2": "På Bonobo är en stor del av vår filosofi att träning måste vara roligt. Ibland innebär det roliga uppvärmningslekar, men det innebär alltid att hålla saker och ting stimulerande, mentalt och fysiskt. Även om vi använder standardstyrketräning med vikter, repetitioner och tidsintervaller – grunden i alla bra gym – är det som verkligen utmärker oss vårt engagemang för att väva in koordination, rytm och rörlighet i varje enskilt träningspass. Varje pass inkluderar en dynamisk uppvärmning, ofta med lekfulla inslag, ett huvudpass och dedikerad stretch efteråt. Detta konsekventa format säkerställer en holistisk och engagerande upplevelse för alla.",
+    "quote": "mark@bonobogym.com",
+    "image_alt": "Mark Oogan, grundare av Bonobo Gym, ler."
+  },
+  "differentiators": {
+    "pre_title": "Det som utmärker Bonobo",
+    "title": "Mer än bara ett Gym",
+    "features": [
+      {
+        "name": "Rörelseglädje & oslagbar gemenskap",
+        "description": "Våra tränare – Mark, Maja, Christian och alla andra – delar en universell entusiasm för rörelse. Vi blandar in lekfullhet i varje pass och anser att träning ska vara roligt, även när det är utmanande. Detta skapar en stark gemenskap. Våra medlemmar berättar ständigt hur vänliga och välkomnande alla är, vilket gör det lättare att kliva in genom dörren och känna sig som hemma. Vi bygger starka band och samlas ofta för sociala evenemang utanför passen, som vår berömda Irish Coffee-träning vid jul!"
+      },
+      {
+        "name": "Alla nivåer välkomna, alltid anpassningsbart",
+        "description": "Oavsett om du är en erfaren atlet eller aldrig har tränat förut, är våra pass utformade för att kunna anpassas till din individuella nivå, ålder eller eventuella fysiska begränsningar. Våra coacher ger praktisk vägledning och ser till att du utmanas på rätt sätt. Du kommer alltid att pressas till din maxnivå, säkert och effektivt."
+      },
+      {
+        "name": "Resultatdrivet & integrerad coachning",
+        "description": "Låt dig inte luras av det roliga – våra pass är hårt arbete! Vi är specialiserade på styrka och kondition och pushar dig ständigt att lyfta tyngre, bli starkare och förbättra din övergripande kondition. Den lilla gruppstorleken gör att våra tränare kan ge personlig coachning, känna till dina förmågor och hjälpa dig att utvecklas. Denna blandning av gemenskap och individuell uppmärksamhet säkerställer att du får ut mesta möjliga av varje pass och uppnår verkliga, mätbara resultat."
+      }
+    ]
+  },
+  "about_cta": {
+    "title": "Ta första steget",
+    "subtitle": "mot ett starkare och gladare du.",
+    "button_schedule": "Se vårt passchema",
+    "button_trial": "Boka ditt prova-på-pass"
+  },
+  "team_spotlight": {
+    "title": "Möt vårt team",
+    "subtitle": "som gör Bonobo Gym speciellt.",
+    "members": [
+      {
+        "name": "Mark Oogan",
+        "role": "Grundare & Huvudcoach",
+        "alt": "Mark Oogan, Grundare & Huvudcoach"
+      },
+      {
+        "name": "Maja",
+        "role": "Instruktör Movement (MVMT)",
+        "alt": "Maja, Instruktör Movement (MVMT)"
+      },
+      {
+        "name": "Christian",
+        "role": "Gästtränare",
+        "alt": "Christian, Gästtränare"
+      },
+      {
+        "name": "CarMa Training",
+        "role": "Extern Partner",
+        "bio": "Specialiserade på träning före och efter förlossningen, samarbetar CarMa Training med oss för att erbjuda 'Stark Mamma'-klassen, vilket säkerställer expertvägledning för nyblivna mammor.",
+        "imageUrl": "/images/carmatraining-logo.png",
+        "url": "https://carmatraining.se"
+      }
+
+    ]
+  },
+  "footer": {
+    "tagline": "Improvement by Movement",
+    "quick_links": "Snabblänkar",
+    "links": {
+      "classes": "Pass",
+      "memberships": "Medlemskap",
+      "about": "Om Oss",
+      "contact": "Kontakt"
+    },
+    "hours_title": "Öppettider",
+    "hours_content": {
+      "weekdays": "Måndag - Fredag: 07:00 - 20:00",
+      "saturday": "Lördag: 09:00 - 13:00",
+      "sunday": "Söndag: 09:00 - 13:00"
+    },
+    "contact_title": "Kontakt",
+    "copyright": " 2025 Bonobo Gym. Alla rättigheter förbehållna."
+  },
+  "instagram_feed": {
+    "title": "Följ Oss på Instagram",
+    "handle": "@bonobogym",
+    "alt_text": "Instagram-inlägg"
+  },
+  "classes_hero": {
+    "title": "Hitta ditt nästa träningspass",
+    "subtitle": "Styrka och rörelse för alla kroppar och åldrar.",
+    "image_alt": "Människor som tränar på ett gym"
+  },
+  "class_pillars": {
+    "title": "Våra pass",
+    "subtitle": "Utforska våra pass, utformade för att möta dina unika behov och mål.",
+    "pillars": [
+      {
+        "id": "strength_conditioning",
+        "title": "Strength & Conditioning",
+        "description": "Bygg funktionell styrka, uthållighet och allmän kondition i våra grundläggande pass för vuxna."
+      },
+      {
+        "id": "movement",
+        "title": "Movement (MVMT)",
+        "description": "Utforska smidighet, balans och kroppsmedvetenhet genom varierade rörelseövningar för alla vuxna."
+      },
+      {
+        "id": "funky_monkeys",
+        "title": "Funky Monkeys (3-5 år)",
+        "description": "Introducera de yngsta till rörelse, koordination och självförtroende i en rolig miljö där föräldrar deltar."
+      },
+      {
+        "id": "youth_class",
+        "title": "Ungdomsklass (10-14 år)",
+        "description": "Stärk förtonåringar och tonåringar att bygga styrka, stabilitet och hälsosamma vanor för deras växande kroppar."
+      },
+      {
+        "id": "plus_power",
+        "title": "Plus Power (65+)",
+        "description": "Förbättra livskvaliteten med pass fokuserade på styrka, balans och smidighet, specifikt för seniorer."
+      },
+      {
+        "id": "strong_mama",
+        "title": "Strong Mama",
+        "description": "Återfå styrka och kroppskontroll på ett säkert sätt efter förlossningen med expertvägledning. Ta med din bebis!"
+      }
+    ]
+  },
+  "class_details": [
+    {
+      "id": "strength_conditioning",
+      "title": "Strength & Conditioning",
+      "description": "Våra grundläggande Strength & Conditioning-pass är utformade för att bygga en robust och motståndskraftig kropp. Vi kombinerar funktionell styrketräning med utmanande konditionselement för att förbättra din kraft, uthållighet och övergripande kondition.",
+      "experience_title": "Du kommer att uppleva:",
+      "experience_list": [
+        "Dynamisk uppvärmning: Ofta med lekfulla inslag för att göra kropp och sinne redo.",
+        "Varierade pass: Med vikter, kroppsvikt, repetitioner och tidsintervaller.",
+        "Integrerad approach: Fokus på koordination, rytm och rörlighet i varje pass.",
+        "Dedikerad stretch: Varje pass avslutas med en strukturerad nedvarvning."
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Alla träningsnivåer! Våra coacher anpassar övningarna för att säkerställa att du utmanas maximalt, på ett säkert och effektivt sätt."
+    },
+    {
+      "id": "movement",
+      "title": "Movement (MVMT)",
+      "description": "Vårt Movement-pass är en timmes utforskning av din kropps förmågor, till musik. Vi hämtar inspiration från olika discipliner som yoga, kampsport, dans och pilates för att förbättra din flexibilitet, balans och kroppsmedvetenhet.",
+      "experience_title": "Du kommer att uppleva:",
+      "experience_list": [
+        "Kontinuerligt flöde: Smidiga, dynamiska sekvenser som utmanar din stabilitet och ditt rörelseomfång.",
+        "Kroppsmedvetenhet: Upptäck och stärk områden du kanske missar i traditionell styrketräning.",
+        "Koppling mellan kropp & sinne: Fokus på kontroll och precision i varje rörelse."
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Rekommenderas starkt för alla, särskilt de som vill förbättra sin flexibilitet eller komplettera sin styrketräning."
+    },
+    {
+      "id": "strong_mama",
+      "title": "Strong Mama (CarMa Mammaträning)",
+      "description": "Vår 'Strong Mama'-klass är utformad för nyblivna mammor, med fokus på att säkert bygga upp bålstyrka, förbättra hållningen och öka energinivåerna. Klassen tillhandahålls i samarbete med vår externa partner, <a href='https://carmatraining.se' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:text-blue-800 font-semibold'>CarMa Training</a>, i en stödjande miljö där du kan ta med din bebis.",
+      "experience_title": "Unika fördelar:",
+      "experience_list": [
+        "Ta med din bebis: Bebisar är välkomna och kan vara med dig under passet.",
+        "Specialiserad coachning: Kontrollerad, processdriven träning för att hjälpa dig att säkert återfå bålstyrkan.",
+        "Intim miljö: Små gruppstorlekar (max 10 mammor) säkerställer personlig uppmärksamhet."
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Nyblivna mammor som vill återgå till träning i en kontrollerad och stödjande miljö."
+    },
+    {
+      "id": "funky_monkeys",
+      "title": "Funky Monkeys (3-5 år)",
+      "description": "Vårt 'Funky Monkeys'-program introducerar barn i åldern 3-5 till rörelseglädje i en rolig, säker och engagerande miljö. Vi fokuserar på att bygga grundläggande motoriska färdigheter, koordination och självförtroende genom lekfulla övningar och lekar, allt medan en förälder deltar tillsammans med dem.",
+      "experience_title": "Fördelar:",
+      "experience_list": [
+        "Förbättrad fysisk utveckling och balans.",
+        "Ökat självförtroende och förmåga att lyssna."
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Föräldrar och deras barn i åldern 3-5 år."
+    },
+    {
+      "id": "youth_class",
+      "title": "Ungdomsklass (10-14 år)",
+      "description": "Vårt 'Ungdomspass' är specifikt utformat för förtonåringar och tonåringar, med fokus på att bygga styrka, stabilitet och korrekta rörelsemönster när deras kroppar växer och förändras.",
+      "experience_title": "Du kommer att uppleva:",
+      "experience_list": [
+        "Grundläggande utveckling av styrka och koordination.",
+        "Balanserad träning och en positiv miljö."
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Förtonåringar och ungdomar (t.ex. 11-16) som vill bygga en stark och kapabel kropp."
+    },
+    {
+      "id": "plus_power",
+      "title": "Plus Power (65+)",
+      "description": "Vårt 'Plus Power'-pass är skräddarsytt för individer från 65 år och uppåt, med fokus på att bibehålla och förbättra de viktiga fysiska färdigheter som höjer livskvaliteten i vardagen.",
+      "experience_title": "Du kommer att uppleva:",
+      "experience_list": [
+        "Funktionell styrke- och balansträning.",
+        "Koordination, rörlighet och en stödjande atmosfär."
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Individer 65 år och äldre som vill hålla sig aktiva och bibehålla sin självständighet."
+    },
+    {
+      "id": "workshops",
+      "title": "Specialiserade Workshops & Evenemang",
+      "description": "Under året anordnar Bonobo Gym särskilda workshops för att fördjupa dina tekniska färdigheter och utöka dina kunskaper om holistisk hälsa.",
+      "experience_title": "Exempel:",
+      "experience_list": [
+        "Kettlebell- & Skivstångsteknik",
+        "Kampsport/Boxning",
+        "Näringslära & Immunitet"
+      ],
+      "who_for_label": "För vem:",
+      "who_for_text": "Medlemmar som vill finslipa specifika tekniker eller få bredare hälsoinsikter."
+    }
+  ],
+  "class_schedule": {
+    "title": "Vårt veckoschema",
+    "subtitle": "Hitta en tid som passar dig. Alla pass måste bokas i förväg.",
+    "days": ["Mån", "Tis", "Ons", "Tors", "Fre", "Lör", "Sön"],
+    "class_names": {
+      "Strength & Conditioning": "Strength & Conditioning",
+      "Movement": "Movement (MVMT)",
+      "Strong Mama": "Strong Mama (CarMa Training)",
+      "Funky Monkeys": "Funky Monkeys",
+      "Youth Class": "Ungdomspass",
+      "Plus Power": "Plus Power"
+    }
+  },
+  "booking_cta": {
+    "title": "Ta första steget",
+    "subtitle": "mot ett starkare och gladare du.",
+    "trial_button": "Boka prova på",
+    "membership_button": "Se Medlemskap"
+  },
+  "classes_faq": {
+    "title": "Vanliga frågor",
+    "questions": [
+      {
+        "question": "Vad ska jag ha på mig på ett pass?",
+        "answer": "Bekväma träningskläder och stödjande inomhusskor rekommenderas. På Movement-passen föredrar vissa att träna barfota eller i strumpor."
+      },
+      {
+        "question": "Måste jag boka i förväg?",
+        "answer": "Ja, alla pass måste bokas i förväg via vårt online-system för att säkra din plats, eftersom våra små gruppklasser har begränsat antal platser."
+      },
+      {
+        "question": "Vad gör jag om jag har en skada eller fysisk begränsning?",
+        "answer": "Vänligen informera din coach innan passet börjar. Våra erfarna tränare är skickliga på att ge anpassningar och alternativa övningar för att du ska kunna delta säkert och effektivt på din egen nivå."
+      },
+      {
+        "question": "Hur tidigt bör jag komma till mitt första pass?",
+        "answer": "Vi rekommenderar att du kommer 10-15 minuter före ditt första pass för att hinna med en snabb registrering, träffa din coach och komma i ordning."
+      },
+      {
+        "question": "Finns det parkering?",
+        "answer": "Begränsad gatuparkering finns direkt utanför gymmet."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "questions": [
+      {
+        "question": "Vad är Bonobo Trail och vad händer när det är slut?",
+        "answer": "Bonobo Trail är vårt introduktionserbjudande: 3 pass på 14 dagar för 360 kr. Det är det perfekta sättet att uppleva vårt gym. Om du bestämmer dig för att bli fullvärdig medlem efter din provperiod får du 10% rabatt på din första månads medlemskap!"
+      },
+      {
+        "question": "Kan jag ta med en vän för att träna?",
+        "answer": "Våra Guld- och Guld+Coach-medlemmar kan ta med en vän som inte är medlem till vårt månatliga 'Kompis-fredag'-event. Andra medlemskap inkluderar inte denna förmån."
+      },
+      {
+        "question": "Kan jag frysa mitt medlemskap?",
+        "answer": "Ja! Vårt Silver-medlemskap inkluderar 2 veckors frysning per år, och våra Guld- och Guld+Coach-medlemskap inkluderar 4 veckors frysning (uppdelat på två 2-veckorsperioder). Vänligen kontakta oss för att ordna en frysning."
+      },
+      {
+        "question": "Vad är er avbokningspolicy?",
+        "answer": "Våra månadsmedlemskap kan sägas upp när som helst med 30 dagars varsel. Klippkort, bootcamps och årsmedlemskap är inte återbetalningsbara."
+      },
+      {
+        "question": "Finns det alternativ för barn?",
+        "answer": "Ja, vi erbjuder ett Barn- och Ungdomskort som är giltigt för våra specifika pass för yngre medlemmar. Se pass-schemat för detaljer eller kontakta oss för mer information."
+      },
+      {
+        "question": "Tänk om jag aldrig har tränat förut?",
+        "answer": "Inga problem! Våra pass är utformade för alla träningsnivåer. Våra expertcoacher kommer att ge anpassningar för att säkerställa att du får ett säkert och effektivt träningspass."
+      }
+    ]
+  },
+  "membership_page": {
+    "header": {
+      "title": "Välj Din Väg",
+      "subtitle": "Välj ett medlemskap eller flexibelt kort som passar dina behov"
+    },
+    "trail_offer": {
+      "title": "Bonobo Trail",
+      "description": "Prova på! 3 pass i 14 dagar för endast 360 kr.",
+      "promo": "Uppgradera till fullt medlemskap och få 10% rabatt på din första månad!",
+      "button": "Starta din Prova-på →"
+    },
+    "pricing_cards": {
+      "silver": {
+        "title": "Silver",
+        "price_suffix": "/mån",
+        "features": [
+          "9 bokningar per månad",
+          "2 veckors frysning per år",
+          "Tillgång till alla pass"
+        ],
+        "button": "Välj Silver →"
+      },
+      "gold": {
+        "tag": "Mest Populära",
+        "title": "Guld",
+        "price_suffix": "/mån",
+        "features": [
+          "Obegränsade bokningar, alla pass",
+          "Ta med en vän på 'Kompis-fredag'",
+          "4 veckors frysning per år"
+        ],
+        "button": "Välj Guld →",
+        "annual_note": "Eller betala årsvis (12 089 kr) och få 1 månad gratis!"
+      },
+      "gold_coach": {
+        "title": "Guld+Coach",
+        "price_suffix": "/mån",
+        "features": [
+          "Alla Guld-förmåner ingår",
+          "1 PT-pass per månad",
+          "Garanterad plats på pass"
+        ],
+        "button": "Uppgradera till Guld+Coach",
+        "annual_note": "Eller betala årsvis (20 889 kr) och få 1 månad gratis!"
+      }
+    },
+    "other_passes": {
+      "title": "Andra Kort & Klippkort",
+      "passes": [
+        {
+          "title": "10-Klippkort",
+          "price": "1 999 kr",
+          "description": "Träna när det passar dig. 10-klippkortet är giltigt i 6 månader från inköpsdatum. Perfekt för dig som vill ha flexibilitet i ditt träningsschema."
+        },
+        {
+          "title": "Drop-in",
+          "price": "250 kr",
+          "description": "Perfekt för att prova ett pass eller för besökare. Boka din plats på något av våra ordinarie pass. Utmärkt för dig som vill uppleva våra pass utan ett långsiktigt åtagande."
+        },
+        {
+          "title": "Barn- & ungdomskort",
+          "price": "1 995 kr",
+          "description": "Ett 10-veckorskort för våra Funky Monkeys- eller Ungdomspass, utformat för att bygga en grund för träning i en rolig miljö. Idealiskt för föräldrar som vill att deras barn ska vara aktiva och hälsosamma.",
+          "link_text": "Läs mer"
+        },
+        {
+          "title": "Enstaka PT-pass",
+          "price": "850 kr",
+          "description": "Få personlig uppmärksamhet och ett träningspass skräddarsytt efter dina specifika mål med en en-till-en-session med våra expertcoacher. Lämpligt för dig som vill ha fokuserad träning och vägledning."
+        },
+        {
+          "title": "Mamma Bootcamp",
+          "price": "2 999 kr",
+          "description": "Ett 10-passprogram utformat för att hjälpa nyblivna mammor att säkert och effektivt återgå till träning efter förlossningen. Bebisar är välkomna! Perfekt för nyblivna mammor som vill återfå styrka och självförtroende i en stödjande miljö."
+        },
+        {
+          "title": "Bruce Medlem Add-on",
+          "price": "120 kr",
+          "description": "För våra vänner som använder Bruce! Detta tillägg är för när du har använt upp din vanliga kvot och vill delta i ytterligare ett pass. Bekvämt för dig som vill gå på extra pass utan att uppgradera ditt medlemskap."
+        }
+      ]
+    },
+    "comparison_table": {
+      "title": "Jämför medlemskap",
+      "headers": ["Förmån", "Silver", "Guld", "Guld+Coach"],
+      "rows": [
+        { "feature": "Bokningar", "silver": "9 / mån", "gold": "Obegränsat", "gold_coach": "Obegränsat" },
+        { "feature": "Kompis-fredagar", "silver": "—", "gold": "✓", "gold_coach": "✓" },
+        { "feature": "Frysning (veckor)", "silver": "2 / år", "gold": "4 / år", "gold_coach": "4 / år" },
+        { "feature": "PT-pass", "silver": "—", "gold": "—", "gold_coach": "1 / mån" },
+        { "feature": "Garanterad Plats", "silver": "—", "gold": "—", "gold_coach": "✓" }
+      ]
+    }
+  },
+  "redirect_modal": {
+    "title": "Omdirigerar till boknings- och betalningssystem",
+    "description": "Du kommer nu att omdirigeras till vårt externa boknings- och betalningssystem för att slutföra ditt köp.",
+    "confirm_button": "Fortsätt",
+    "cancel_button": "Avbryt"
+  },
+  "contact_page": {
+    "header": {
+      "pre_title": "Kontakta oss",
+      "title": "Hör av dig",
+      "subtitle": "Har du frågor om våra pass, medlemskap eller filosofi? Tveka inte att kontakta oss!"
+    },
+    "email_section": {
+      "title": "Skicka ett E-postmeddelande",
+      "description": "För alla frågor, vänligen kontakta Mark direkt.",
+      "button_text": "mark@bonobogym.com"
+    }
+  }
+}

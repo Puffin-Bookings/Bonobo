@@ -1,0 +1,533 @@
+{
+  "navbar": {
+    "home": "Home",
+    "classes": "Classes",
+    "memberships": "Memberships",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log In",
+    "book_class": "Book a Class"
+  },
+  "hero": {
+    "title": "Improvement by Movement",
+    "subtitle": "at Bonobo Gym",
+    "button_trial": "Book a Trial",
+    "button_membership": "View Memberships"
+  },
+  "value_prop": {
+    "title": "Fitness Made Simple, Personal, and Fun",
+    "subtitle": "At Bonobo Gym, we believe fitness should be a source of strength, joy, and community. Our unique approach focuses on movement, personalized attention, and making every session a rewarding experience - for both the individual and group.",
+    "button_philosophy": "Read more →",
+    "values": [
+      {
+        "title": "Train Your Body as One",
+        "description": "Our philosophy is simple: train the body, engage the mind. We combine strength, coordination, and mobility into unified workouts that build a functionally powerful body. This method enhances physical resilience while sharpening mental focus, creating strength from the inside out."
+      },
+      {
+        "title": "Tiny Groups, Huge Support",
+        "description": "Our small group classes mean personalized coaching and a strong sense of belonging. Our trainers know you, your goals, and your limits, pushing you effectively and safely."
+      },
+      {
+        "title": "Find Joy in Every Session",
+        "description": "We infuse fun and playfulness into challenging workouts. From engaging warm-ups to diverse exercises, we keep things fresh and stimulating, proving that hard work can also be incredibly enjoyable."
+      }
+    ]
+  },
+  "featured_classes": {
+    "title": "Our Main Classes",
+    "subtitle": "Whether you're looking to build foundational strength, enhance your movement, or find specialized support, Bonobo Gym has a class designed for you.",
+    "learn_more": "Learn More →",
+    "classes": [
+      {
+        "id": "strength_conditioning",
+        "title": "Strength & Conditioning",
+        "description": "Our core offering to build functional strength and endurance. Experience challenging workouts tailored to your level, ensuring steady progress and real results."
+      },
+      {
+        "id": "movement",
+        "title": "Movement (MVMT)",
+        "description": "Unlock your body's full potential. Our unique movement classes blend elements from various disciplines to improve your flexibility, balance, and overall body awareness."
+      },
+      {
+        "title": "Fitness for Every Age",
+        "description": "From our 'Funky Monkeys' (3-5 years) and 'Youth Class (10-14 years)' to our 'Plus Power' (65+), we offer safe, effective, and fun training for every stage of life."
+      }
+    ]
+  },
+  "community_testimonials": {
+    "title": "Don't just take our word for it,",
+    "subtitle": "This is what our members have to say.",
+    "testimonials": [
+      {
+        "quote": "Efter en veckas träningsuppehåll känns det jättekul att vara tillbaka till de grymma träningspassen och alla Bonobo-kompisar.",
+        "name": "Carin",
+        "source": "Bruce",
+        "rating": 5
+      },
+      {
+        "quote": "Efter ett långt träninguppehåll är jag nu på bara 3 månader starkare och i bättre form än någonsin, allt tack vare Mark och Bonobo community. En perfekt kombo av PT och gruppträning med ett otroligt resultat och så mycket pepp och glädje. Kan inte bli bättre !",
+        "name": "Anna",
+        "source": "Google",
+        "rating": 5
+      },
+      {
+        "quote": "Placeholder testimonial 1. Share a brief, impactful quote from a happy client here.",
+        "name": "Client Name 1",
+        "source": "Client Survey",
+        "rating": 5
+      },
+      {
+        "quote": "Maja och Mark som tränare är fantastiskt! Så glad att jag hittat denna pärla och tillbaka till träningsglädjen. Riktigt bra, utmanande och roliga pass med en engagerad, genuin och peppande tränare! Rekommenderas starkt!",
+        "name": "Hanna",
+        "source": "Bruce",
+        "rating": 5
+      },
+      {
+        "quote": "Great gym, amazing postpartum training program and trainers, and absolute best views over the water!",
+        "name": "C Ortiz",
+        "source": "Google",
+        "rating": 5
+      },
+      {
+        "quote": "Från en som inte gillade att träna i grupp och är inne på sitt 9:e år på Bonobo säger en hel del. Mark har en förmåga att skapa variation på träningen som passar alla. Grymt peppande gäng som tränar och alla behöver en Mark.",
+        "name": "Danne",
+        "source": "Google",
+        "rating": 5
+      },
+      {
+        "quote": "Mark är en 🌟 alltid svettigt, roligt och härlig stämning med kompisarna på Bonobo!",
+        "name": "Gabriella",
+        "source": "Bruce",
+        "rating": 5
+      },
+      {
+        "quote": "Placeholder testimonial 6. Share a brief, impactful quote from a happy client here.",
+        "name": "Client Name 6",
+        "source": "Client Survey",
+        "rating": 5
+      },
+      {
+        "quote": "Placeholder testimonial 7. Share a brief, impactful quote from a happy client here.",
+        "name": "Client Name 7",
+        "source": "Client Survey",
+        "rating": 5
+      },
+      {
+        "quote": "Inkluderande och familjär stämning - jättebra pass med stor variation och rörelseglädje! Små träningsgrupper och engarande tränare som ser en.",
+        "name": "Jenny",
+        "source": "Google",
+        "rating": 5
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Take the first step",
+    "subtitle": "towards a stronger, more joyful you.",
+    "button_join": "Join Today",
+    "button_trial": "Book a Trial"
+  },
+  "about_hero": {
+    "title": "Bonobo Gym",
+    "subtitle": "Improvement by Movement"
+  },
+  "mark_story": {
+    "title": "Meet Mark",
+    "paragraph1": "Hello! I'm Mark Oogan, a 56-year-old Irishman who's called Sweden home for the past 20 years. My journey in fitness began early, as a semi-professional cyclist in Ireland for five years in my teenage years. I then delved deep into martial arts – Brazilian Jiu-Jitsu, Karate, and Boxing – fueling a lifelong passion for sports. My vision for Bonobo Gym truly crystallized after training with Jon Hinds at Monkey Bar Gym in Darwin, Australia, where I became a certified natural trainer. This experience shaped my core belief: train the body as a single, integrated unit, focusing on natural strength, coordination, and mobility.",
+    "paragraph2": "At Bonobo, a big part of our philosophy is that training must be enjoyable. Sometimes that means fun warm-up games, but it always means keeping things stimulating, mentally and physically. While we incorporate standard strength training with weights, reps, and time intervals – the essence of any good gym – what truly sets us apart is our commitment to weaving coordination, rhythm, and mobility into every single workout. Every class includes a dynamic warm-up, often with playful games, a main workout, and a dedicated stretch after. This consistent format ensures a holistic and engaging experience for everyone.",
+    "quote": "mark@bonobogym.com",
+    "image_alt": "Mark Oogan, founder of Bonobo Gym, smiling."
+  },
+  "differentiators": {
+    "pre_title": "The Bonobo Difference",
+    "title": "More Than Just a Gym",
+    "features": [
+      {
+        "name": "Joy in Movement & Unrivaled Community",
+        "description": "Our trainers – Mark, Maja, Christian, and all others – share a universal enthusiasm for movement. We infuse playfulness into every session, believing that fitness should be fun, even when it's challenging. This creates a powerful sense of community. Our members consistently tell us how friendly and welcoming everyone is, making it easier to step through the door and feel right at home. We foster strong bonds, often gathering for social events outside of classes, like our famous Irish Coffee workout at Christmas!"
+      },
+      {
+        "name": "All Levels Welcome, Always Adjustable",
+        "description": "Whether you're a seasoned athlete or have never trained before, our classes are designed to be adaptable to your individual level, age, or any physical limitations. Our coaches provide hands-on guidance, ensuring you're challenged appropriately. You'll always be pushed to your maximum, safely and effectively."
+      },
+      {
+        "name": "Results-Driven & Integrated Coaching",
+        "description": "Don't be fooled by the fun – our workouts are hard work! We specialize in strength and conditioning, constantly nudging you to lift heavier, get stronger, and improve your overall fitness. The small group setting allows our trainers to provide personalized coaching, knowing your capabilities and helping you progress. This blend of community and individualized attention ensures you get the most out of every session, driving real, tangible results."
+      }
+    ]
+  },
+  "about_cta": {
+    "title": "Take the first step",
+    "subtitle": "towards a stronger, more joyful you.",
+    "button_schedule": "View Our Class Schedule",
+    "button_trial": "Book Your Trial Session"
+  },
+  "team_spotlight": {
+    "title": "Meet Our Team",
+    "subtitle": "who make Bonobo Gym special.",
+    "members": [
+      {
+        "name": "Mark Oogan",
+        "role": "Founder & Head Coach",
+        "alt": "Mark Oogan, Founder & Head Coach"
+      },
+      {
+        "name": "Maja",
+        "role": "Movement (MVMT) Class Instructor",
+        "alt": "Maja, Movement (MVMT) Class Instructor"
+      },
+      {
+        "name": "Christian",
+        "role": "Guest Trainer",
+        "alt": "Christian, Guest Trainer"
+      },
+      {
+        "name": "CarMa Training",
+        "role": "External Partner",
+        "bio": "Specialized in pre- and post-natal training, CarMa Training collaborates with us to offer the 'Strong Mama' class, ensuring expert guidance for new mothers.",
+        "imageUrl": "/images/carmatraining-logo.png",
+        "url": "https://carmatraining.se"
+      }
+
+    ]
+  },
+  "footer": {
+    "tagline": "Improvement by Movement",
+    "quick_links": "Quick Links",
+    "links": {
+      "classes": "Classes",
+      "memberships": "Memberships",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "hours_title": "Hours",
+    "hours_content": {
+      "weekdays": "Monday - Friday: 7:00 - 20:00",
+      "saturday": "Saturday: 9:00 - 13:00",
+      "sunday": "Sunday: 9:00 - 13:00"
+    },
+    "contact_title": "Contact",
+    "copyright": " 2025 Bonobo Gym. All rights reserved."
+  },
+  "instagram_feed": {
+    "title": "Follow Us on Instagram",
+    "handle": "@bonobogym",
+    "alt_text": "Instagram Post"
+  },
+  "classes_hero": {
+    "title": "Discover Your Next Workout",
+    "subtitle": "Strength and movement for every body and age.",
+    "image_alt": "People working out in a gym"
+  },
+  "class_pillars": {
+    "title": "Our Classes",
+    "subtitle": "Explore our classes designed to meet your unique needs and goals.",
+    "pillars": [
+      {
+        "id": "strength_conditioning",
+        "title": "Strength & Conditioning",
+        "description": "Build functional strength, endurance, and overall fitness in our foundational classes for adults."
+      },
+      {
+        "id": "movement",
+        "title": "Movement (MVMT)",
+        "description": "Explore fluidity, balance, and body awareness through diverse movement practices for all adults."
+      },
+      {
+        "id": "funky_monkeys",
+        "title": "Funky Monkeys (3-5)",
+        "description": "Introduce your youngest ones to movement, coordination, and confidence in a fun, parent-inclusive setting."
+      },
+      {
+        "id": "youth_class",
+        "title": "Youth Class (10-14)",
+        "description": "Empower pre-teens and teens to build strength, stability, and healthy habits for their developing bodies."
+      },
+      {
+        "id": "plus_power",
+        "title": "Plus Power (65+)",
+        "description": "Enhance life quality with classes focused on strength, balance, and agility specifically for seniors."
+      },
+      {
+        "id": "strong_mama",
+        "title": "Strong Mama",
+        "description": "Safely regain strength and body control post-natal with expert guidance, and bring your baby along!"
+      }
+    ]
+  },
+  "class_details": [
+    {
+      "id": "strength_conditioning",
+      "title": "Strength & Conditioning",
+      "description": "Our foundational Strength & Conditioning classes are designed to build a robust and resilient body. We combine functional strength work with challenging conditioning elements to improve your power, endurance, and overall fitness.",
+      "experience_title": "You'll Experience:",
+      "experience_list": [
+        "Dynamic Warm-ups: Often including playful games to get your body and mind ready.",
+        "Varied Workouts: Utilizing weights, bodyweight, reps, and time intervals.",
+        "Integrated Approach: Focus on coordination, rhythm, and mobility in every session.",
+        "Dedicated Stretch: Each class concludes with a structured cool-down."
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "All fitness levels! Our coaches scale exercises to ensure you're challenged at your maximum, safely and effectively."
+    },
+    {
+      "id": "movement",
+      "title": "Movement (MVMT)",
+      "description": "Our Movement class is an hour-long exploration of your body's capabilities, set to music. We draw inspiration from diverse disciplines like yoga, martial arts, dance, and Pilates to enhance your flexibility, balance, and body awareness.",
+      "experience_title": "You'll Experience:",
+      "experience_list": [
+        "Continuous Flow: Fluid, dynamic sequences that challenge your stability and range of motion.",
+        "Body Awareness: Discover and strengthen areas you might overlook in traditional strength training.",
+        "Mind-Body Connection: Focus on control and precision in every movement."
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "Highly recommended for everyone, especially those seeking to improve flexibility or complement their strength training."
+    },
+    {
+      "id": "strong_mama",
+      "title": "Strong Mama (CarMa Training)",
+      "description": "Our 'Strong Mama' class is designed for new mothers, focusing on safely rebuilding core strength, improving posture, and increasing energy levels. This class is provided in collaboration with our external partner, <a href='https://carmatraining.se' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:text-blue-800 font-semibold'>CarMa Training</a>, in a supportive environment where you can bring your baby along.",
+      "experience_title": "Unique Features:",
+      "experience_list": [
+        "Bring Your Baby: Babies are welcome and can be with you during the class.",
+        "Specialized Coaching: Controlled, process-driven training to help you safely regain core strength.",
+        "Intimate Setting: Small group sizes (max 10 moms) ensure personalized attention."
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "New mothers looking to return to training in a controlled and supportive environment."
+    },
+    {
+      "id": "funky_monkeys",
+      "title": "Funky Monkeys (Ages 3-5)",
+      "description": "Our 'Funky Monkeys' program introduces children aged 3-5 to the joy of movement in a fun, safe, and engaging environment. We focus on building fundamental motor skills, coordination, and confidence through playful exercises and games, all while a parent participates alongside them.",
+      "experience_title": "Benefits:",
+      "experience_list": [
+        "Enhanced physical development and balance.",
+        "Increased confidence and listening skills."
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "Parents and their children aged 3-5."
+    },
+    {
+      "id": "youth_class",
+      "title": "Youth Class (Ages 10-14)",
+      "description": "The 'Youth Class' program is specifically designed for pre-teens and adolescents, focusing on building strength, stability, and proper movement patterns as their bodies grow and change.",
+      "experience_title": "You'll Experience:",
+      "experience_list": [
+        "Foundational Strength & Coordination Development.",
+        "Balanced Training & Positive Environment."
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "Pre-teens and adolescents (e.g., 11-16) looking to build a strong, capable body."
+    },
+    {
+      "id": "plus_power",
+      "title": "Plus Power (65+)",
+      "description": "Our 'Plus Power' class is tailored for individuals aged 65 and over, focusing on maintaining and improving the vital physical skills that enhance daily life quality.",
+      "experience_title": "You'll Experience:",
+      "experience_list": [
+        "Functional Strength & Balance Training.",
+        "Coordination, Mobility & Supportive Atmosphere."
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "Individuals aged 65 and above who want to stay active and maintain independence."
+    },
+    {
+      "id": "workshops",
+      "title": "Specialized Workshops & Events",
+      "description": "Throughout the year, Bonobo Gym hosts special workshops designed to deepen your technical skills and expand your knowledge on holistic health.",
+      "experience_title": "Examples:",
+      "experience_list": [
+        "Kettlebell & Barbell Technique",
+        "Martial Arts/Boxing",
+        "Nutrition & Immunity"
+      ],
+      "who_for_label": "Who it's for:",
+      "who_for_text": "Members looking to refine specific techniques or gain broader health insights."
+    }
+  ],
+  "class_schedule": {
+    "title": "Our Weekly Class Schedule",
+    "subtitle": "Find a time that works for you. All classes must be booked in advance.",
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "class_names": {
+      "Strength & Conditioning": "Strength & Conditioning",
+      "Movement": "Movement",
+      "Strong Mama": "Strong Mama (CarMa Training)",
+      "Funky Monkeys": "Funky Monkeys",
+      "Youth Class": "Youth Class",
+      "Plus Power": "Plus Power"
+    }
+  },
+  "booking_cta": {
+    "title": "Take the first step",
+    "subtitle": "towards a stronger, more joyful you.",
+    "trial_button": "Book a Trial",
+    "membership_button": "See Memberships"
+  },
+  "classes_faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What should I wear to a class?",
+        "answer": "Comfortable athletic wear and supportive indoor training shoes are recommended. For Movement classes, some prefer to train barefoot or in socks."
+      },
+      {
+        "question": "Do I need to book in advance?",
+        "answer": "Yes, all classes must be booked in advance through our online system to ensure your spot, as our small group classes have limited capacity."
+      },
+      {
+        "question": "What if I have an injury or physical limitation?",
+        "answer": "Please inform your coach before the class begins. Our experienced trainers are skilled at providing modifications and alternative exercises to ensure you can participate safely and effectively at your own level."
+      },
+      {
+        "question": "How early should I arrive for my first class?",
+        "answer": "We recommend arriving 10-15 minutes before your first class to allow time for a quick registration, meet your coach, and get settled."
+      },
+      {
+        "question": "Is there parking available?",
+        "answer": "Limited street parking is available directly outside the gym."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is the Bonobo Trail and what happens after it ends?",
+        "answer": "The Bonobo Trail is our introductory offer: 3 classes in 14 days for 360 kr. It's the perfect way to experience our gym. If you decide to join as a full member after your trial, you'll receive a 10% discount on your first month's membership!"
+      },
+      {
+        "question": "Can I bring a friend to train with me?",
+        "answer": "Our Gold and Gold+Coach members can bring a friend who is not currently a member to our monthly 'Friend Friday' event. Other passes do not include this perk."
+      },
+      {
+        "question": "Can I freeze my membership?",
+        "answer": "Yes! Our Silver membership includes a 2-week freeze per year, and our Gold and Gold+Coach memberships include a 4-week freeze (split into two 2-week periods). Please contact us to arrange a freeze."
+      },
+      {
+        "question": "What is your cancellation policy?",
+        "answer": "Our monthly memberships can be canceled at any time with 30 days notice. Class packs, bootcamps, and annual memberships are non-refundable."
+      },
+      {
+        "question": "Are there options for kids?",
+        "answer": "Yes, we offer a Children and Youth Pass which is valid for our specific classes for younger members. Please check the class schedule for details or contact us for more information."
+      },
+      {
+        "question": "What if I have never trained before?",
+        "answer": "No problem! Our classes are designed for all fitness levels. Our expert coaches will provide modifications to ensure you get a safe and effective workout."
+      }
+    ]
+  },
+  "membership_page": {
+    "header": {
+      "title": "Pick Your Path",
+      "subtitle": "Choose a membership option or flexible pass that meet your needs"
+    },
+    "trail_offer": {
+      "title": "Bonobo Trail",
+      "description": "Try us out! 3 classes in 14 days for only 360 kr.",
+      "promo": "Convert to a full membership and get 10% off your first month!",
+      "button": "Start Your Trail →"
+    },
+    "pricing_cards": {
+      "silver": {
+        "title": "Silver",
+        "price_suffix": "/mo",
+        "features": [
+          "9 bookings per month",
+          "2 weeks freeze per year",
+          "Access to all classes"
+        ],
+        "button": "Choose Silver →"
+      },
+      "gold": {
+        "tag": "Most Popular",
+        "title": "Gold",
+        "price_suffix": "/mo",
+        "features": [
+          "Unlimited bookings, all classes",
+          "Bring a friend on 'Friend Friday'",
+          "4 weeks freeze per year"
+        ],
+        "button": "Go for Gold →",
+        "annual_note": "Or pay annually (12 089 kr) and get 1 month free!"
+      },
+      "gold_coach": {
+        "title": "Gold+Coach",
+        "price_suffix": "/mo",
+        "features": [
+          "All Gold benefits included",
+          "1 PT session per month",
+          "Guaranteed access to classes"
+        ],
+        "button": "Upgrade to Gold+Coach",
+        "annual_note": "Or pay annually (20 889 kr) and get 1 month free!"
+      }
+    },
+    "other_passes": {
+      "title": "Other Passes & Packs",
+      "passes": [
+        { 
+          "title": "10-Pack Clip Card", 
+          "price": "1 999 kr", 
+          "description": "Train when it suits you. The 10-pack clip card is valid for 6 months from the date of purchase. Perfect for those who want flexibility in their training schedule." 
+        },
+        { 
+          "title": "Single Drop-in", 
+          "price": "250 kr", 
+          "description": "Perfect for trying out a class or for visitors. Book your spot in any of our regular classes. Great for those who want to experience our classes without a long-term commitment." 
+        },
+        { 
+          "title": "Children & Youth Pass", 
+          "price": "1 995 kr", 
+          "description": "A 10-week pass for our Funky Monkeys or Youth classes, designed to build a foundation of fitness in a fun environment. Ideal for parents who want their kids to stay active and healthy.", 
+          "link_text": "Read more" 
+        },
+        { 
+          "title": "Single PT Class", 
+          "price": "850 kr", 
+          "description": "Get personalized attention and a workout tailored to your specific goals with a one-on-one session with our expert coaches. Suitable for those who want focused training and guidance." 
+        },
+        { 
+          "title": "Mama Bootcamp", 
+          "price": "2 999 kr", 
+          "description": "A 10-class program designed to help new mothers safely and effectively return to training after childbirth. Babies are welcome! Perfect for new moms who want to regain strength and confidence in a supportive environment." 
+        },
+        { 
+          "title": "Bruce Member Add-on", 
+          "price": "120 kr", 
+          "description": "For our friends using Bruce! This add-on is for when you have used up your regular quota and want to join another class. Convenient for those who want to attend extra classes without upgrading their membership." 
+        }
+      ]
+    },
+    "comparison_table": {
+      "title": "Membership Comparison",
+      "headers": ["Feature", "Silver", "Gold", "Gold+Coach"],
+      "rows": [
+        { "feature": "Bookings", "silver": "9 / month", "gold": "Unlimited", "gold_coach": "Unlimited" },
+        { "feature": "Friend Fridays", "silver": "—", "gold": "✓", "gold_coach": "✓" },
+        { "feature": "Freeze Weeks (2x2 weeks)", "silver": "2 / year", "gold": "4 / year", "gold_coach": "4 / year" },
+        { "feature": "PT Session", "silver": "—", "gold": "—", "gold_coach": "1 / month" },
+        { "feature": "Guaranteed Access", "silver": "—", "gold": "—", "gold_coach": "✓" }
+      ]
+    }
+  },
+  "redirect_modal": {
+    "title": "Redirecting to Booking System",
+    "description": "You will now be redirected to our external booking and payment system to complete your purchase.",
+    "confirm_button": "Continue",
+    "cancel_button": "Cancel"
+  },
+  "contact_page": {
+    "header": {
+      "pre_title": "Contact Us",
+      "title": "Get In Touch",
+      "subtitle": "Have questions about our classes, memberships, or philosophy? Reach out!"
+    },
+    "email_section": {
+      "title": "Send an Email",
+      "description": "For any inquiries, please reach out to Mark directly.",
+      "button_text": "mark@bonobogym.com"
+    }
+  }
+}
