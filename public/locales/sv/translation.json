@@ -352,6 +352,7 @@
     "days": ["Mån", "Tis", "Ons", "Tors", "Fre", "Lör", "Sön"],
     "class_names": {
       "Strength & Conditioning": "Strength & Conditioning",
+      "Strength & Conditioning_short": "S&C",
       "Movement": "Movement (MVMT)",
       "Strong Mama": "Strong Mama (CarMa Training)",
       "Funky Monkeys": "Funky Monkeys",

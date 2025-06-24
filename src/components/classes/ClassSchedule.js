@@ -133,7 +133,14 @@ const ClassSchedule = () => {
                   className={`m-0.5 p-1 rounded text-xs font-bold flex justify-center items-center text-center shadow-sm ${getClassStyles(item.name)}`}
                   style={{ gridColumn: colStart, gridRow: `${rowStart} / ${rowEnd}` }}
                 >
-                  {schedule.class_names[item.name] || item.name}
+                  {item.name === 'Strength & Conditioning' ? (
+                    <>
+                      <span className="hidden md:inline">{t('class_schedule.class_names.Strength & Conditioning')}</span>
+                      <span className="md:hidden">{t('class_schedule.class_names.Strength & Conditioning_short')}</span>
+                    </>
+                  ) : (
+                    schedule.class_names[item.name] || item.name
+                  )}
                 </div>
               );
             })}

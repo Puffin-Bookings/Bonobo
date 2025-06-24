@@ -351,6 +351,7 @@
     "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     "class_names": {
       "Strength & Conditioning": "Strength & Conditioning",
+      "Strength & Conditioning_short": "S&C",
       "Movement": "Movement",
       "Strong Mama": "Strong Mama (CarMa Training)",
       "Funky Monkeys": "Funky Monkeys",
@@ -461,7 +462,7 @@
           "Guaranteed access to classes"
         ],
         "button": "Upgrade to Gold+Coach",
-        "annual_note": "Or pay annually (20 889 kr) and get 1 month free!"
+        "annual_note": "Or pay annually (19 789 kr) and get 1 month free!"
       }
     },
     "other_passes": {

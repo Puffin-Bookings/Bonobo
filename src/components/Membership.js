@@ -106,7 +106,7 @@ const Membership = () => {
           {/* Gold+Coach Card */}
           <div className="border rounded-lg p-8 flex flex-col">
             <h3 className="text-3xl font-bold text-gray-900">{gold_coach.title}</h3>
-            <p className="mt-6 text-4xl font-bold">1 899 kr <span className="text-lg font-medium text-gray-500">{gold_coach.price_suffix}</span></p>
+            <p className="mt-6 text-4xl font-bold">1 799 kr <span className="text-lg font-medium text-gray-500">{gold_coach.price_suffix}</span></p>
             <ul className="mt-6 space-y-4 text-left mb-8">
               {gold_coach.features.map((feature, index) => (
                 <li key={index} className="flex items-start"><span className="text-gray-800 mr-2">✓</span>{feature}</li>
