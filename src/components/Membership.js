@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
 import RedirectModal from './RedirectModal';
+import SEO from './SEO';
 
 const PassItem = ({ title, price, description, children, onBuyClick }) => {
   const { t } = useTranslation();
@@ -60,6 +61,7 @@ const Membership = () => {
 
   return (
     <div className="bg-white py-16">
+      <SEO title={t('seo.membership.title')} description={t('seo.membership.description')} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">{header.title}</h1>
@@ -103,7 +105,7 @@ const Membership = () => {
             </ul>
             <div className="mt-auto">
               <button onClick={() => handleOpenModal(gold.purchaseUrl)} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-900">{gold.button}</button>
-              <p className="mt-6 text-center text-sm text-gray-500">{gold.annual_note}</p>
+              <p className="mt-6 text-center text-sm text-gray-500">{gold.annual_link ? (<a href={gold.annual_link} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">{gold.annual_note}</a>) : gold.annual_note}</p>
             </div>
           </div>
 
@@ -118,7 +120,7 @@ const Membership = () => {
             </ul>
             <div className="mt-auto">
               <button onClick={() => handleOpenModal(gold_coach.purchaseUrl)} className="w-full bg-gray-800 text-white py-4 rounded-lg font-semibold hover:bg-gray-700">{gold_coach.button}</button>
-              <p className="mt-6 text-center text-sm text-gray-500">{gold_coach.annual_note}</p>
+              <p className="mt-6 text-center text-sm text-gray-500">{gold_coach.annual_link ? (<a href={gold_coach.annual_link} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-700">{gold_coach.annual_note}</a>) : gold_coach.annual_note}</p>
             </div>
           </div>
         </div>

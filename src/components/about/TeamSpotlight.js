@@ -1,10 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import markInstructorImage from '../../assets/images/Mark instructor.HEIC';
+import majaImage from '../../assets/images/maja.jpg';
 
 const teamImageUrls = [
   markInstructorImage,
-  'https://via.placeholder.com/150', // Placeholder for Maja
+  majaImage, // Maja headshot
   'https://via.placeholder.com/150', // Placeholder for Christian
 ];
 

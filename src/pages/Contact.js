@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaEnvelope } from 'react-icons/fa';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -14,6 +15,7 @@ const Contact = () => {
 
   return (
     <div className="bg-gray-50">
+      <SEO title={t('seo.contact.title')} description={t('seo.contact.description')} />
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-gray-600 tracking-wide uppercase">{header.pre_title}</h2>

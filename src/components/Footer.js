@@ -52,7 +52,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-gray-800 pt-8 text-center text-gray-500">
+        <div className="mt-12 border-t border-gray-800 pt-8 text-center">
+          <h3 className="text-lg font-bold">{t('footer.service_area_title')}</h3>
+          <p className="mt-2 text-gray-400 max-w-3xl mx-auto">
+            {t('footer.service_area_content')}
+          </p>
+        </div>
+
+        <div className="mt-8 border-t border-gray-800 pt-8 text-center text-gray-500">
           <p>{t('footer.copyright')}</p>
         </div>
       </div>

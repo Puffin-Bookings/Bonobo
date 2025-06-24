@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-// TODO: Replace with Maja's actual image
-import majaInstructorImage from '../../assets/images/Mark instructor.HEIC';
+import majaInstructorImage from '../../assets/images/maja.jpg';
 
 const MajaStory = () => {
   const { t } = useTranslation();
@@ -20,9 +19,7 @@ const MajaStory = () => {
                 {paragraph}
               </p>
             ))}
-            <p className="mt-6 text-xl text-gray-700 font-semibold italic">
-              "{t('maja_story.quote')}"
-            </p>
+            
           </div>
           <div className="mt-10 lg:mt-0 lg:order-1">
             <img

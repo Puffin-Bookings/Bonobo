@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Announcements = ({ isOpen }) => {
   const { t } = useTranslation();
@@ -23,8 +24,13 @@ const Announcements = ({ isOpen }) => {
       <ul className="divide-y divide-gray-100 max-h-96 overflow-y-auto">
         {activeAnnouncements.length > 0 ? (
           activeAnnouncements.map(announcement => (
-            <li key={announcement.id} className="p-3 hover:bg-gray-50">
-              <p className="text-sm text-gray-700">{announcement.message}</p>
+            <li key={announcement.id} className="p-0">
+              <Link
+                to={announcement.link || '/membership'}
+                className="block p-3 hover:bg-gray-50 text-sm text-gray-700"
+              >
+                {announcement.message}
+              </Link>
             </li>
           ))
         ) : (

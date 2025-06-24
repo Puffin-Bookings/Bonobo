@@ -19,9 +19,7 @@ const MarkStory = () => {
             <p className="mt-4 text-lg text-gray-500">
               {t('mark_story.paragraph2')}
             </p>
-            <p className="mt-6 text-xl text-gray-700 font-semibold italic">
-              "{t('mark_story.quote')}"
-            </p>
+
           </div>
           <div className="mt-10 lg:mt-0">
             <img

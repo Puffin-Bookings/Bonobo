@@ -10,7 +10,7 @@
   },
   "hero": {
     "title": "Improvement by Movement",
-    "subtitle": "at Bonobo Gym",
+    "subtitle": "at Bonobo Gym - Kvarnholmen",
     "button_trial": "Book a Trial",
     "button_membership": "View Memberships"
   },
@@ -206,17 +206,20 @@
   "announcements": [
     {
       "id": 1,
-      "message": "Funky Monkeys (3-5) starts on 24/8. See 'Classes' for more information.",
+      "message": "Funky Monkeys (3-5) starts on 24/8. View 'Classes' for schedule.",
+      "link": "/membership",
       "endDate": "2025-10-31"
     },
     {
       "id": 2,
-      "message": "Youth Class (10-14) starts 26/8. See 'Classes' for more information.",
+      "message": "Youth Class (10-14) starts 26/8. View 'Classes' for schedule.",
+      "link": "/membership",
       "endDate": "2025-10-31"
     },
     {
       "id": 3,
-      "message": "Plus Power (65+) starts on 26/7 and continues weekly as a regular class. See 'Classes' for more information.",
+      "message": "Plus Power (65+) starts on 26/8. View 'Classes' for schedule",
+      "link": "/membership",
       "endDate": "2026-12-31"
     }
   ],
@@ -236,7 +239,31 @@
       "sunday": "Sunday: 9:00 - 13:00"
     },
     "contact_title": "Contact",
-    "copyright": " 2025 Bonobo Gym. All rights reserved."
+    "copyright": " 2024 Bonobo Gym. All rights reserved.",
+    "service_area_title": "Our Service Area",
+    "service_area_content": "With our base in Kvarnholmnen, we proudly serve members from all of Värmdö and Nacka."
+  },
+  "seo": {
+    "home": {
+      "title": "Bonobo Gym Kvarnholmen | Boutique Gym & Group Training in Nacka",
+      "description": "Discover Bonobo Gym in Kvarnholmen. We offer personal training, group classes, and specialized programs like Strong Mama & kids' training. Trial cards available for new members!"
+    },
+    "about": {
+      "title": "About Us | Bonobo Gym Nacka",
+      "description": "Meet the team behind Bonobo Gym. Learn about our philosophy and our expert trainers, Mark and Maja, dedicated to your fitness journey in Nacka."
+    },
+    "classes": {
+      "title": "Classes | Bonobo Gym Nacka",
+      "description": "Explore our wide range of group training classes at Bonobo Gym in Nacka, from high-intensity workouts to specialized youth and postnatal training."
+    },
+    "membership": {
+      "title": "Pricing & Memberships | Bonobo Gym Nacka",
+      "description": "Find a membership that suits you at Bonobo Gym in Nacka. Choose from flexible clip cards, monthly memberships (Silver, Gold), and PT packages."
+    },
+    "contact": {
+      "title": "Contact Us | Bonobo Gym Nacka",
+      "description": "Get in touch with Bonobo Gym. Find our address in Kvarnholmen, Nacka, our contact details, and a map to plan your visit."
+    }
   },
   "instagram_feed": {
     "title": "Follow Us on Instagram",
@@ -459,7 +486,7 @@
       "description": "Try us out! 3 classes in 14 days for only 360 kr.",
       "promo": "Convert to a full membership and get 10% off your first month! ",
       "button": "Claim Offer",
-      "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa"
+      "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=prova-pa--bonobo-3-ggr"
     },
     "pricing_cards": {
       "silver": {
@@ -470,7 +497,8 @@
           "2 weeks freeze per year",
           "Access to all classes"
         ],
-        "button": "Choose Silver →"
+        "button": "Choose Silver →",
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=bonobo-silver"
       },
       "gold": {
         "tag": "Most Popular",
@@ -482,8 +510,9 @@
           "4 weeks freeze per year"
         ],
         "button": "Go for Gold →",
-        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa",
-        "annual_note": "Or pay annually (12 089 kr) and get 1 month for free!"
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=bonobo-gold",
+        "annual_note": "Or pay annually (12 089 kr) and get 1 month for free!",
+        "annual_link": "https://bonobogym.gymsystem.se/shoppa?p=arskort-gold"
       },
       "gold_coach": {
         "title": "Gold+Coach",
@@ -494,8 +523,9 @@
           "Guaranteed access to classes"
         ],
         "button": "Upgrade to Gold+Coach",
-        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa",
-        "annual_note": "Or pay annually (19 789 kr) and get 1 month for free!"
+        "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=gold--coach",
+        "annual_note": "Or pay annually (19 789 kr) and get 1 month for free!",
+        "annual_link": "https://bonobogym.gymsystem.se/shoppa?p=arskort-gold-coach"
       }
     },
     "other_passes": {
@@ -505,38 +535,45 @@
           "title": "10-Pack Clip Card", 
           "price": "1 999 kr", 
           "description": "Train when it suits you. The 10-pack clip card is valid for 6 months from the date of purchase. Perfect for those who want flexibility in their training schedule.",
-          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=10-visit-klippkort"
         },
         { 
           "title": "Single Drop-in", 
           "price": "250 kr", 
           "description": "Perfect for trying out a class or for visitors. Book your spot in any of our regular classes. Great for those who want to experience our classes without a long-term commitment.",
-          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=drop-in-single-visit"
         },
         { 
-          "title": "Children & Youth Pass", 
+          "title": "Funky Monkey Pass", 
           "price": "1 995 kr", 
-          "description": "A 10-week pass for our Funky Monkeys or Youth classes, designed to build a foundation of fitness in a fun environment. Ideal for parents who want their kids to stay active and healthy.", 
+          "description": "A 10-week pass for our Funky Monkey classes (ages 3-5) focused on playful movement and foundational motor skills.", 
           "link_text": "Read more",
-          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=barntraning-3-5-ar-funky-monkeys"
+        },
+        { 
+          "title": "Youth Class Pass", 
+          "price": "1 995 kr", 
+          "description": "A 10-week pass for our Youth classes (ages 10-14) aimed at building strength, mobility and confidence in a supportive environment.", 
+          "link_text": "Read more",
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=youth-training-10-14-years"
         },
         { 
           "title": "Single PT Class", 
           "price": "850 kr", 
           "description": "Get personalized attention and a workout tailored to your specific goals with a one-on-one session with our expert coaches. Suitable for those who want focused training and guidance.",
-          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=p.t.-one-to-one"
         },
         { 
           "title": "Strong Mama", 
           "price": "2 990 kr", 
           "description": "A 10-class program designed to help new mothers safely and effectively return to training after childbirth. Babies are welcome! Perfect for new moms who want to regain strength and confidence in a supportive environment.",
-          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=mamma-boot-camp"
         },
         { 
           "title": "Bruce Member Add-on", 
           "price": "120 kr", 
           "description": "For our friends using Bruce! This add-on is for when you have used up your regular quota and want to join another class. Convenient for those who want to attend extra classes without upgrading their membership.",
-          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa" 
+          "purchaseUrl": "https://bonobogym.gymsystem.se/shoppa?p=bruce-extra"
         }
       ]
     },
