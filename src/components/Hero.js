@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import heroImage from '../assets/images/plank.HEIC';
+import heroImage from '../assets/images/plank.jpg';
 
 const Hero = () => {
   const { t } = useTranslation();
