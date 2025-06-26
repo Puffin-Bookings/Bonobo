@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import markInstructorImage from '../../assets/images/Mark instructor.HEIC';
+import markInstructorImage from '../../assets/images/Mark instructor.jpg';
 import majaImage from '../../assets/images/maja.jpg';
 
 const teamImageUrls = [
